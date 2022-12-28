@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopUI", "DesktopUI\DesktopUI.csproj", "{6AA78601-1258-4DE0-B303-B80E325C729D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopUILibrary", "DesktopUILibrary\DesktopUILibrary.csproj", "{4DBCB29A-01A9-4F28-8EFF-615E5172CB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APILibrary", "APILibrary\APILibrary.csproj", "{7926CFA9-6DD8-4D21-A993-3EA37E42605E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AA78601-1258-4DE0-B303-B80E325C729D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA78601-1258-4DE0-B303-B80E325C729D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA78601-1258-4DE0-B303-B80E325C729D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA78601-1258-4DE0-B303-B80E325C729D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBCB29A-01A9-4F28-8EFF-615E5172CB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBCB29A-01A9-4F28-8EFF-615E5172CB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBCB29A-01A9-4F28-8EFF-615E5172CB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBCB29A-01A9-4F28-8EFF-615E5172CB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7926CFA9-6DD8-4D21-A993-3EA37E42605E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7926CFA9-6DD8-4D21-A993-3EA37E42605E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7926CFA9-6DD8-4D21-A993-3EA37E42605E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7926CFA9-6DD8-4D21-A993-3EA37E42605E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
